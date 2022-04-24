@@ -8,6 +8,8 @@ import MongoDB from "../assets/logo-mongodb.png";
 import Bootstrap from "../assets/logo-bootstrap.png";
 import Express from "../assets/logo-expressjs.png";
 import Git from "../assets/logo-git.png";
+import Node from "../assets/logo-nodejs.png";
+import Tailwind from "../assets/logo-tailwind.png";
 
 const Skills = () => {
 	return (
@@ -26,7 +28,7 @@ const Skills = () => {
 					</p>
 				</div>
 
-				<div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+				<div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8">
 					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
 						<img
 							className="w-[100px] mx-auto"
@@ -66,10 +68,30 @@ const Skills = () => {
 					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
 						<img
 							className="w-[100px] mx-auto"
+							src={Tailwind}
+							alt="bootstrap icon"
+						/>
+						<p className="text-transform: uppercase mb-2">
+							tailwind css
+						</p>
+					</div>
+					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+						<img
+							className="w-[100px] mx-auto"
 							src={ReactImg}
 							alt="react icon"
 						/>
 						<p className="text-transform: uppercase mb-2">react</p>
+					</div>
+					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+						<img
+							className="w-[100px] mx-auto"
+							src={Node}
+							alt="react icon"
+						/>
+						<p className="text-transform: uppercase mb-2">
+							node js
+						</p>
 					</div>
 					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
 						<img

@@ -2,7 +2,7 @@ import React from "react";
 import WorkImg from "../assets/workImg.jpeg";
 import realEstate from "../assets/realestate.jpg";
 
-const Work = () => {
+const Projects = () => {
 	return (
 		<div
 			name="projects"
@@ -97,4 +97,4 @@ const Work = () => {
 	);
 };
 
-export default Work;
+export default Projects;
