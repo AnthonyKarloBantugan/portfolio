@@ -1,4 +1,5 @@
 import React from "react";
+import { HiOutlineMail } from "react-icons/hi";
 
 const Contact = () => {
 	return (
@@ -15,10 +16,7 @@ const Contact = () => {
 					<p className="text-4xl text-gray-300 font-bold inline border-b-4 border-pink-600">
 						Contact
 					</p>
-					<p className="text-gray-300 py-4">
-						//Submit the form below or shoot me an email -
-						anthonykarlo.bantugan@gmail.com
-					</p>
+					<p className="text-gray-300 py-4">//Send me a message.</p>
 				</div>
 
 				<input
@@ -40,7 +38,7 @@ const Contact = () => {
 					placeholder="Message"
 				></textarea>
 				<button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto ">
-					Let's Collaborate
+					Send Message
 				</button>
 			</form>
 		</div>

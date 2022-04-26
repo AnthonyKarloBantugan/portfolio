@@ -1,21 +1,21 @@
 import React from "react";
 
-import HTML from "../assets/logo-html5.png";
-import CSS from "../assets/logo-css3.png";
-import JS from "../assets/logo-javascript.png";
-import ReactImg from "../assets/logo-react.png";
-import MongoDB from "../assets/logo-mongodb.png";
-import Bootstrap from "../assets/logo-bootstrap.png";
-import Express from "../assets/logo-expressjs.png";
-import Git from "../assets/logo-git.png";
-import Node from "../assets/logo-nodejs.png";
-import Tailwind from "../assets/logo-tailwind.png";
+import HTML from "../assets/img/logo-html5.png";
+import CSS from "../assets/img/logo-css3.png";
+import JS from "../assets/img/logo-javascript.png";
+import ReactImg from "../assets/img/logo-react.png";
+import MongoDB from "../assets/img/logo-mongodb.png";
+import Bootstrap from "../assets/img/logo-bootstrap.png";
+import Express from "../assets/img/logo-expressjs.png";
+import Git from "../assets/img/logo-git.png";
+import Node from "../assets/img/logo-nodejs.png";
+import Tailwind from "../assets/img/logo-tailwind.png";
 
 const Skills = () => {
 	return (
 		<div
 			name="skills"
-			className="w-full h-screen bg-[#0a192f] text-gray-300"
+			className="w-full sm:h-screen bg-[#0a192f] text-gray-300"
 		>
 			{/* Container */}
 			<div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -31,7 +31,7 @@ const Skills = () => {
 				<div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8">
 					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
 						<img
-							className="w-[100px] mx-auto"
+							className="w-[150px] mx-auto"
 							src={HTML}
 							alt="HTML icon"
 						/>
@@ -39,7 +39,7 @@ const Skills = () => {
 					</div>
 					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
 						<img
-							className="w-[100px] mx-auto"
+							className="w-[150px] mx-auto"
 							src={CSS}
 							alt="CSS icon"
 						/>
@@ -47,7 +47,7 @@ const Skills = () => {
 					</div>
 					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
 						<img
-							className="w-[100px] mx-auto"
+							className="w-[150px] mx-auto"
 							src={JS}
 							alt="Javascript icon"
 						/>
@@ -57,7 +57,7 @@ const Skills = () => {
 					</div>
 					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
 						<img
-							className="w-[100px] mx-auto"
+							className="w-[150px] mx-auto"
 							src={Bootstrap}
 							alt="bootstrap icon"
 						/>
@@ -67,7 +67,7 @@ const Skills = () => {
 					</div>
 					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
 						<img
-							className="w-[100px] mx-auto"
+							className="w-[150px] mx-auto"
 							src={Tailwind}
 							alt="bootstrap icon"
 						/>
@@ -77,7 +77,7 @@ const Skills = () => {
 					</div>
 					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
 						<img
-							className="w-[100px] mx-auto"
+							className="w-[150px] mx-auto"
 							src={ReactImg}
 							alt="react icon"
 						/>
@@ -85,7 +85,7 @@ const Skills = () => {
 					</div>
 					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
 						<img
-							className="w-[100px] mx-auto"
+							className="w-[150px] mx-auto"
 							src={Node}
 							alt="react icon"
 						/>
@@ -95,7 +95,7 @@ const Skills = () => {
 					</div>
 					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
 						<img
-							className="w-[100px] mx-auto"
+							className="w-[150px] mx-auto"
 							src={Express}
 							alt="express.js icon"
 						/>
@@ -105,7 +105,7 @@ const Skills = () => {
 					</div>
 					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
 						<img
-							className="w-[100px] mx-auto"
+							className="w-[150px] mx-auto"
 							src={MongoDB}
 							alt="mongoDB icon"
 						/>
@@ -115,11 +115,11 @@ const Skills = () => {
 					</div>
 					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
 						<img
-							className="w-[100px] mx-auto"
+							className="w-[150px] mx-auto"
 							src={Git}
 							alt="git icon"
 						/>
-						<p className="text-transform: uppercase mb-2">git</p>
+						<p className="text-transform: uppercase mb-2 ">git</p>
 					</div>
 				</div>
 			</div>
