@@ -43,7 +43,7 @@ const Projects = () => {
 									</button>
 								</a>
 								<a
-									href="https://github.com/AnthonyKarloBantugan/simple-calculator"
+									href=" https://capstone-3-mu.vercel.app/"
 									target="_blank"
 								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
