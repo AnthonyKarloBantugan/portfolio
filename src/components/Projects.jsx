@@ -1,6 +1,7 @@
 import React from "react";
 import Calculator from "../assets/img/calculator.JPG";
 import Ecommerce from "../assets/img/ecommerce.JPG";
+import Todo from "../assets/img/todo.JPG";
 
 const Projects = () => {
 	return (
@@ -14,11 +15,49 @@ const Projects = () => {
 						Projects
 					</p>
 					<p className="py-4">
-						//Check out some of my recent projects
+						// Check out some of my recent projects
 					</p>
 				</div>
 				{/* Container */}
 				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+					{/* Grid Item */}
+					<div
+						style={{ backgroundImage: `url(${Todo})` }}
+						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center ms-auto content-div"
+					>
+						{/* Hover Effects */}
+						<div className="opacity-0 group-hover:opacity-100 duration-300">
+							<span className="text-2xl font-bold text-white tracking-wider px-4 ">
+								To-Do App
+							</span>
+							<p className="px-4">
+								A simple To-Do app using React and Typescript.
+								Fully responsive with drag and drop feature
+								using react-beautiful-dnd library.
+							</p>
+							<div className=" pt-2 text-center">
+								<a
+									href="https://react-portfolio-sigma-six.vercel.app/"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Demo
+									</button>
+								</a>
+								<a
+									href="https://github.com/AnthonyKarloBantugan/todo-typescript"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+										Code
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+
 					{/* Grid Item */}
 					<div
 						style={{ backgroundImage: `url(${Ecommerce})` }}
@@ -30,21 +69,23 @@ const Projects = () => {
 								Tech Labs
 							</span>
 							<p className="px-4">
-								A fully functional Ecommerce website using MERN
-								stack technologies.
+								My coding bootcamp submitted ecommerce website
+								project using MERN stack technologies.
 							</p>
 							<div className=" pt-2 text-center">
 								<a
-									href="https://anthonykarlobantugan.github.io/simple-calculator/"
+									href="https://capstone-3-mu.vercel.app/"
 									target="_blank"
+									rel="noreferrer"
 								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Demo
 									</button>
 								</a>
 								<a
-									href=" https://capstone-3-mu.vercel.app/"
+									href=" https://gitlab.com/AnthonyBantugan/capstone-3"
 									target="_blank"
+									rel="noreferrer"
 								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Code
@@ -72,6 +113,7 @@ const Projects = () => {
 								<a
 									href="https://anthonykarlobantugan.github.io/simple-calculator/"
 									target="_blank"
+									rel="noreferrer"
 								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Demo
@@ -80,6 +122,7 @@ const Projects = () => {
 								<a
 									href="https://github.com/AnthonyKarloBantugan/simple-calculator"
 									target="_blank"
+									rel="noreferrer"
 								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Code
