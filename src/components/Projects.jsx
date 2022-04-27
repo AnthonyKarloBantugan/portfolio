@@ -37,7 +37,7 @@ const Projects = () => {
 							</p>
 							<div className=" pt-2 text-center">
 								<a
-									href="https://react-portfolio-sigma-six.vercel.app/"
+									href="https://todo-typescript-two.vercel.app/"
 									target="_blank"
 									rel="noreferrer"
 								>
