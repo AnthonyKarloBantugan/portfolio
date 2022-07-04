@@ -5,8 +5,8 @@ import { BiCopyright } from "react-icons/bi";
 
 const Footer = () => {
 	return (
-		<div className="h-[50px] bg-gray-900 flex justify-center items-center text-gray-300">
-			<div className="w-[50%] flex justify-between items-center">
+		<div className="h-[50px] bg-gray-900 md:flex justify-center items-center text-gray-300 hidden ">
+			<div className="w-screen lg:w-[75%] flex justify-around items-center p-2 lg:p-0">
 				<div className="flex tracking-wider">
 					<HiOutlineMail size={20} className="mr-2 text-red-600" />{" "}
 					anthonykarlo.bantugan@gmail.com
